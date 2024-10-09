@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/posts/posts",
+    "pages/index/index",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#FFC0CB",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/posts/posts",
+        "text": "收藏",
+        "iconPath": "images/heart.png",
+        "selectedIconPath": "images/heart-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
